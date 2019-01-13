@@ -1,10 +1,32 @@
 <div class="container">
-  <div class="col-md-12">
-    Good Morning! {{institute}}
-  </div>
-</div>
+  <div class="row">
+    <div class="col-md-12">
+     Good Morning! {{institute}}
+    </div>
+  </div>  
+
  <div class="row">
   <div class="col-md-12">
     <input type="button" value="Okay" class="btn btn-primary" (click)="myClick($event)">
   </div>
  </div>
+ <div class="card">
+<div class="row">
+  <div class="col-md-12">
+    <p [class.alert]="true"
+    [class.alert-warning]="alSts.iswarning"
+    [class.alert-success]="alSts.issuccess"
+    [class.alert-danger]="alSts.isdanger"
+    [class.alert-info]="alSts.isinfo">Welcome To Codekul</p>
+  </div>
+</div>
+ <div class="row">
+   <div class="col-md-12">
+    <input type="button" value="Okay" class="btn btn-warning" (click)="myAl('warning')">
+    <input type="button" value="Okay" class="btn btn-success" (click)="myAl('success')">
+    <input type="button" value="Okay" class="btn btn-danger" (click)="myAl('danger')">
+    <input type="button" value="Okay" class="btn btn-info" (click)="myAl('info')">
+   </div>
+ </div>
+</div>
+</div>
