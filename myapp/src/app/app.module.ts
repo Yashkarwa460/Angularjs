@@ -9,6 +9,7 @@ import { CardsInfoComponent } from './info-price/cards-info.component';
 import { CardInfoTwoComponent } from './info-price/card-info-two.component';
 import { CardInfoThreeComponent } from './info-price/card-info-three.component';
 import { FooterComponent } from './footer/footer.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     CardsInfoComponent,
     CardInfoTwoComponent,
     CardInfoThreeComponent,
-    FooterComponent
+    FooterComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule
