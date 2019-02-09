@@ -13,6 +13,7 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { MagicDirective } from './directives/magic.directive';
+import { InputboxComponent } from './inputbox/inputbox.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,9 @@ import { MagicDirective } from './directives/magic.directive';
     DataBindingComponent,
     CalculatorComponent,
     DirectivesComponent,
-    MagicDirective
+    MagicDirective,
+    InputboxComponent,
+    
   ],
   imports: [
     BrowserModule
