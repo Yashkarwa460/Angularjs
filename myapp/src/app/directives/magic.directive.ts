@@ -9,6 +9,7 @@ export class MagicDirective implements OnInit {
   bkCl: string
 
   @Input()
+  // tslint:disable-next-line:typedef-whitespace
   dfCl : string
 
   constructor() { }
@@ -19,17 +20,17 @@ export class MagicDirective implements OnInit {
 
   magicColor() {
     this.bkCl =  `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)} )`
-    console.log(this.bkCl)
   }
 
-  @HostListener('mouseenter')
-  msIn() {
-    this.magicColor()
-  }
-
-  @HostListener('mouseleave')
-  msLv() {
-    this.magicColor()
-  }
+    @HostListener('mouseenter')
+    msIn() {
+      this.magicColor()
+    }
+  // tslint:disable-next-line:no-trailing-whitespace
+  
+    @HostListener('mouseleave')
+    msLv() {
+      this.magicColor()
+    }
 
 }

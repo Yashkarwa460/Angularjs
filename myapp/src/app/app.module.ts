@@ -14,6 +14,8 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { MagicDirective } from './directives/magic.directive';
 import { InputboxComponent } from './inputbox/inputbox.component';
+import { InputboxdirectiveComponent } from './inputboxdirective/inputboxdirective.component';
+import { ImagezoomDirective } from './inputboxdirective/imagezoom.directive';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { InputboxComponent } from './inputbox/inputbox.component';
     DirectivesComponent,
     MagicDirective,
     InputboxComponent,
-    
+    InputboxdirectiveComponent,
+    ImagezoomDirective
   ],
   imports: [
     BrowserModule
