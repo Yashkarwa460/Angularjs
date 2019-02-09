@@ -11,6 +11,7 @@ import { CardInfoThreeComponent } from './info-price/card-info-three.component';
 import { FooterComponent } from './footer/footer.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { DirectivesComponent } from './directives/directives.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CalculatorComponent } from './calculator/calculator.component';
     CardInfoThreeComponent,
     FooterComponent,
     DataBindingComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule
