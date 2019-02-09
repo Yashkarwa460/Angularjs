@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { DirectivesComponent } from './directives/directives.component';
+import { MagicDirective } from './directives/magic.directive';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { DirectivesComponent } from './directives/directives.component';
     FooterComponent,
     DataBindingComponent,
     CalculatorComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    MagicDirective
   ],
   imports: [
     BrowserModule

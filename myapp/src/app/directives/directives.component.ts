@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectivesComponent implements OnInit {
 
+  isTgl = true
   constructor() { }
-
   ngOnInit() {
   }
 

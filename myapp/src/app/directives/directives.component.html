@@ -5,6 +5,13 @@
 </div>
 <div class="row">
   <div class="col-md-12">
-    <div></div>
+    <div [ngClass]="{ alert : true, 'alert-info' : isTgl}">
+      Hello! Good Morning
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <input type="button" value="Close" (click)="isTgl = !isTgl">
   </div>
 </div>
